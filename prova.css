@@ -1,0 +1,59 @@
+/*ESTILO SITE INTEIRO*/
+*{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    scroll-behavior: smooth;
+    
+}
+
+
+header{
+    padding: 25px;
+    background-color: #000000;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    color: white;
+}
+
+
+.header-titulo h1{
+font-family: 
+color:#ffffff;
+font size: 35px;
+}
+
+.header-lista ul{
+    justify-content: center;
+    display: flex;
+    gap: 25px;
+    list-style: none;
+}
+
+.header-lista ul li a{
+    text-decoration: none;
+    color: #ffffff;
+    font-family: 
+}
+
+
+
+
+/*sessão 01 */
+
+.sessao-01{
+    background-image: url(imagens/Interior.jpg);
+    background-size: cover;
+    background-position: center;
+    padding: 200px;
+    display: flex;
+    justify-content: space-evenly;
+    background-attachment: fixed;
+}
+
+
+.sessao-01 h1{
+    color: white;
+    
+}
