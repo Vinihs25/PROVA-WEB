@@ -21,20 +21,22 @@ header{
 .header-titulo h1{
 font-family: 
 color:#ffffff;
-font size: 35px;
+font size: 30px;
+    font-family: sans-serif;
 }
 
 .header-lista ul{
     justify-content: center;
     display: flex;
-    gap: 25px;
+    gap: 20px;
     list-style: none;
+    font-family: sans-serif;
 }
 
 .header-lista ul li a{
     text-decoration: none;
     color: #ffffff;
-    font-family: 
+    font-family: sans-serif
 }
 
 
@@ -46,14 +48,20 @@ font size: 35px;
     background-image: url(imagens/Interior.jpg);
     background-size: cover;
     background-position: center;
-    padding: 200px;
+    padding: 250px;
     display: flex;
-    justify-content: space-evenly;
+    justify-content: left;
     background-attachment: fixed;
+    
 }
 
 
 .sessao-01 h1{
-    color: white;
+    color: #000000;
+    font-family: sans-serif;
+}
+
+.sessao-01 p{
+    color: aliceblue;
     
 }
