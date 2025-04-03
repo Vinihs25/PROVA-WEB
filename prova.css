@@ -9,7 +9,7 @@
 
 
 header{
-    padding: 25px;
+    padding: 20px;
     background-color: #000000;
     display: flex;
     justify-content: space-evenly;
@@ -21,14 +21,14 @@ header{
 .header-titulo h1{
 font-family: 
 color:#ffffff;
-font size: 30px;
+font size: 20px;
     font-family: sans-serif;
 }
 
 .header-lista ul{
     justify-content: center;
     display: flex;
-    gap: 20px;
+    gap: 10px;
     list-style: none;
     font-family: sans-serif;
 }
@@ -46,6 +46,7 @@ font size: 30px;
 
 .sessao-01{
     background-image: url(imagens/Interior.jpg);
+    background-color: black;
     background-size: cover;
     background-position: center;
     padding: 250px;
@@ -57,11 +58,99 @@ font size: 30px;
 
 
 .sessao-01 h1{
-    color: #000000;
+    color: #bababa;
     font-family: sans-serif;
+    
 }
 
 .sessao-01 p{
-    color: aliceblue;
+    font-family: sans-serif;
+    color: #000000;
     
 }
+
+
+.sessao-01 button{
+      background-color: rgba(0, 0, 0, 0.397);
+      font-family: sans-serif;
+      padding: 10px;
+      border-radius: 10px;
+      text-decoration: none;
+      cursor: pointer;
+      color: #ffffff;
+      width: 23%;
+      height: 37px;
+      font-size: 15px;
+      
+}
+
+
+
+
+
+
+/*SESSÃO 02*/
+
+
+
+.sessao-02{
+    background-image: url(imagens/sofa-branco2.jpg);
+    background-size: cover;
+    background-position: center;
+    padding: 250px;
+    display: flex;
+    justify-content: left;
+    background-attachment: fixed;
+}
+
+
+
+.sessao-02 h1{
+    color: #000000;
+    font-family: sans-serif;
+    
+}
+
+.sessao-02 p{
+    color: #000000;
+    font-family: sans-serif;
+    
+}
+
+
+.sessao-02 button{
+      background-color: rgba(0, 0, 0, 0.397);
+      font-family: sans-serif;
+      padding: 10px;
+      border-radius: 10px;
+      text-decoration: none;
+      cursor: pointer;
+      color: #ffffff;
+      width: 29%;
+      height: 37px;
+      font-size: 12px;
+      
+}
+
+.sessao-02 h3{
+    font-family: sans-serif;
+    
+    
+}
+
+
+footer{
+  background-color: black;
+    padding: 20px;
+    color: #fafafa;
+    text-align: center;
+    line-height: 23px; 
+    font-family: sans-serif;
+}
+
+
+
+
+
+
+
